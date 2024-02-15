@@ -3,17 +3,19 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        // Ler uma velocidade em Km/h e converter para m/s.
+        // Ler uma velocidade em m/s e converter para km/h.
 
         double km, ms;
 
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Digite uma velocidade em Km/h:");
-        km = in.nextDouble();
+        System.out.println("Digite uma velocidade em m/s:");
+        ms = in.nextDouble();
 
-        ms = km / 3.6;
+        km = ms * 3.6;
 
-        System.out.println(km + " km/h equivale a " + ms + " m/s por segundo");
+        System.out.println(ms + " m/s equivale a " + km + " km/h por hora");
+
+
     }
 }
