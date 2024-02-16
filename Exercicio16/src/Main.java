@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        // Receber o raio e a altura de um cilindro e calcular seu volume.
+        // Receber o raio e a altura de um cone e calcular seu volume.
 
         double ray, height, volume;
 
